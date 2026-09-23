@@ -1,0 +1,20 @@
+name: ChatGPTShell
+options:
+  bundleIdPrefix: com.example
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+targets:
+  ChatGPTShell:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - ChatGPTShell
+    info:
+      path: ChatGPTShell/Info.plist
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.example.chatgptshell
+      SWIFT_VERSION: "5.0"
+      CODE_SIGNING_ALLOWED: "NO"
+      CODE_SIGNING_REQUIRED: "NO"
