@@ -1,18 +1,22 @@
 name: ChatGPTShell
+
 options:
   bundleIdPrefix: com.example
+
 settings:
   base:
     IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+
 targets:
   ChatGPTShell:
     type: application
     platform: iOS
     deploymentTarget: "16.0"
     sources:
-      - ChatGPTShell
+      - ChatGPTShellApp.swift
+      - ChatWebView.swift
     info:
-      path: ChatGPTShell/Info.plist
+      path: Info.plist
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.example.chatgptshell
       SWIFT_VERSION: "5.0"
